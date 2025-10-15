@@ -70,6 +70,10 @@ FK + CASCADE를 통한 DB 무결성 유지
 DAO / Service 분리로 객체지향적 구조  
 DBManager.java 싱글톤 패턴 적용   
 
+## 참조 무결성 유지
+→ 존재하지 않는 플레이어나 게임에 랭킹을 넣을 수 없음.  
+## 데이터 일관성 관리
+→ games가 삭제될 때, game_rankings를 자동 정리.  
 
 ## 실행 화면  
 
